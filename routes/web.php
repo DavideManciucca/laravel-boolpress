@@ -29,3 +29,7 @@ Route::middleware('auth')
     });
 
 // ->get('/admin', 'Admin\HomeController@index')->name('index');
+
+Route::get('{any?}',function(){
+    return view('guest.home');
+})->where('any','.*')->name('home');

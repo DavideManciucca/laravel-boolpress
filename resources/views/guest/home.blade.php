@@ -9,7 +9,7 @@
     <title>prova</title>
 </head>
 <body>
-    prova home guest
+    {{-- prova home guest --}}
     <div id='app'></div>
     <script src="{{asset('js/front.js')}}"></script>
 </body>

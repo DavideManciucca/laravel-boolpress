@@ -1,7 +1,7 @@
 <template>
-<div>
+<div >
     <HeaderComp />
-    <div>
+    <div class="wrapper">
         <ul>
             <li v-for="post in posts" :key="post.id">
             <div> {{post.title}}</div>
@@ -50,6 +50,9 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="scss" scoped>
+.wrapper{
+    width: 70%;
+    margin: 0 auto;
+}
 </style>
