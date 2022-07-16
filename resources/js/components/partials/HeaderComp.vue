@@ -3,10 +3,19 @@
     <div>
         <nav>
             <ul>
-                <li ><a class="active" href="">HOME</a></li>
-                <li><a href="">BLOG</a></li>
-                <li><a href="">CHI SIAMO</a></li>
-                <li><a href="">CONTATTI</a></li>
+                <li >
+                    <router-link :to="{name:'home'}" >HOME</router-link>
+                </li>
+                <li >
+                    <router-link :to="{name:'blog'}" >BLOG</router-link>
+                </li>
+                <li >
+                    <router-link :to="{name:'about'}" >CHI SIAMO</router-link>
+                </li>
+                <li >
+                    <router-link :to="{name:'contacts'}" >CONTATTI</router-link>
+                </li>
+
             </ul>
         </nav>
     </div>
@@ -31,6 +40,7 @@ export default {
                 display: inline-block;
                 margin-left: 25px;
                 margin-right:25px ;
+
                 a{
                     color: black;
                     text-decoration: none;

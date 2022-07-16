@@ -6,7 +6,7 @@
 
 <script>
 export default {
-    name= 'ContactsComp'
+    name: 'ContactsComp'
 }
 </script>
 

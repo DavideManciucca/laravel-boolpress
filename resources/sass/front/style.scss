@@ -4,5 +4,10 @@
     box-sizing: border-box;
 }
 body{
-    background-color: gainsboro
+    background-color: gainsboro;
+}
+
+main{
+    min-height: calc(100vh - 120px);
+    margin: 0 auto;
 }
